@@ -1,0 +1,52 @@
+.vpn--feature {
+  margin-top: 95px;
+  display: flex;
+  gap: 100px;
+  margin-bottom: 126px;
+  align-items: center;
+}
+
+.vpn--feature > div {
+    flex: 1;
+}
+
+.vpn--feature__image {
+    overflow: hidden;
+}
+
+.vpn--feature__image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.vpn--feature__feature {
+    max-width: 500px;
+}
+
+.vpn--feature__feature h2 {
+    line-height: 50px;
+    font-weight: 500;
+}
+
+.vpn--feature__feature p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 16px;
+    color: var(--independence);
+}
+
+.vpn--feature__feature ul {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: var(--independence);
+}
+
+.vpn--feature__feature ul li {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

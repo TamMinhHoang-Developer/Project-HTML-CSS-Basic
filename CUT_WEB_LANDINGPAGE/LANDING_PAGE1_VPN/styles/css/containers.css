@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vpn--container {
+  margin-top: 45px;
+  position: relative;
+}
+
+.pricing--container {
+  margin-top: 80px;
+  position: relative;
+  padding-bottom: 180px;
+}
+
+.container__content {
+  min-width: 1140px;
+  max-width: 1150px;
+}
+
+.container__header {
+  min-width: 1140px;
+  max-width: 1150px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

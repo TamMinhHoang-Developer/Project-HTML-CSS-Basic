@@ -1,0 +1,35 @@
+.vpn--info {
+  margin-top: 100px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  padding: 37px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.vpn--info__container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.vpn--info__container:not(:last-child) {
+  border-right: 2px solid var(--bright-gray);
+}
+
+.vpn--info__item {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.vpn--info__item__content h4 {
+  margin-top: 5px;
+  color: var(--independence);
+}

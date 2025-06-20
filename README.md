@@ -1,2 +1,2 @@
 # Project-HTML-CSS-Basic
-Study HTML, CSS Basci
+Study HTML, CSS Basic

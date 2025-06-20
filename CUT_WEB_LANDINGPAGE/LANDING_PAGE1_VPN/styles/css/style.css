@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+
+:root {
+  --sizzling-red: #f53855;
+  --independence: #4f5665;
+  --deep-carmine-pink: #f53838;
+  --bright-gray: #eeeff2;
+  --eerie-black: #0b132a;
+  --gainsboro: #DDE0E4;
+  --cultured: #F8F8F8;
+  --cadet-blue: #AFB5C0;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  color: var(--eerie-black);
+}

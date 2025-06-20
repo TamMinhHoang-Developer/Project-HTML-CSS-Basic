@@ -1,0 +1,25 @@
+/* Font */
+.font-bold {
+    font-weight: bold;
+}
+
+/* Test */
+.text-50 {
+    font-size: 50px;
+}
+
+.text-35 {
+    font-size: 35px;
+}
+
+.text-25 {
+    font-size: 25px;
+}
+
+.text-20 {
+    font-size: 20px;
+}
+
+.text-16 {
+    font-size: 16px;
+}

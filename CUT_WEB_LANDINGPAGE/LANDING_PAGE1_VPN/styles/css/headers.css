@@ -1,0 +1,37 @@
+.vpn--header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: white;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 1000;
+}
+
+.vpn--header__logo {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.vpn--header__menu__list {
+  display: flex;
+  gap: 40px;
+}
+
+.vpn--header__menu__item a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.vpn--header__buttons {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
